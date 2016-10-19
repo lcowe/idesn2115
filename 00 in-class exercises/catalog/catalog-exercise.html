@@ -13,30 +13,44 @@
       text-decoration: none ;
       font-family: Helvetica, Arial, sans-serif ;
     }
-    a:hover {
+    a.kn-link-page:hover {
       background-color: green ;
-    }
+      color: white !important ;
+      }
     img:hover {
       border-color: green ;
       border: 1px solid ;
     }
-    div class="kn-list-item-container" {
+    .kn-list-item-container {
       margin-bottom: 100px ;
     }
     h2 {
       font-size: 2em !important ;
     }
-    th.kn-label {
-      background-color: none ; /* tried white/none/invisible/etc-gray backgrounds won't disappear */
+    table.kn-label-left th.kn-label {
+      background-color: transparent ;
       border-bottom: 1px dotted black ;
     }
-    div class="kn-entries-summary" {
-      display: none ; /* showing won't disappear */
+    .kn-label {
+      background-color: transparent ; /* gray won't disappear */
     }
-    div #knack-dist3-kn-content {
-      display: none ; /* loading won't disappear */ 
+    .kn-entries-summary {
+      display: none ;
     }
-
+    .kn-content #kn-loading-spinner {
+      display: none !important ;
+    }
+    #view_74 .kn-details-group-column .kn-label-none .kn-value span a {
+      color: white !important ;
+      background-color: #9cc600 ;
+      text-shadow: 0px 1px 3px 0px #999 ;
+      padding: 15px ;
+      border-radius: 5px ;
+      margin-bottom: 10px ;
+      display: inline-block ;
+      text-transform: uppercase ;
+      font-size: 14px ;
+    }
 </style>
 <body>
 <script type="text/javascript">app_id="57fe94a6ba0c369c33874496";distribution_key="dist_3";</script><script type="text/javascript" src="https://loader.knack.com/57fe94a6ba0c369c33874496/dist_3/knack.js"></script><div id="knack-dist_3">Loading...</div>
