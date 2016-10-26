@@ -1,0 +1,68 @@
+/* yes, this is meant to be empty */
+
+h1, h2 {
+  font-family: 'PT Sans', sans-serif ;
+  font-weight: 700 ;
+  color: #1df0d4  ;
+
+}
+
+body {
+  font-family: 'Vollkorn', serif ;
+}
+
+ul {
+/*  list-style-type: none ; */
+
+  list-style-image: url(checkmark.gif) ;
+  /* list-style-position: inside ; */
+
+}
+
+ol {
+  list-style-type: upper-roman ;
+}
+
+fieldset {
+  border: 1px solid #dcdcdc ;
+  border-radius: 10px ;
+  padding: 10px 20px ;
+}
+
+legend {
+  background-color: #efefef ;
+  border: 1ox solid #dcdcdc ;
+  text-align: left ;
+  text-transform: uppercase ;
+}
+
+input[type="text"], input[type="email"] {
+  border: 1px solid #000 ;
+  font-size: .8em ;
+  color: #555 ;
+}
+
+input[type="text"]:hover, input[type="email"]:hover {
+  border: 1px solid blue ;
+  background-color: #eee ;
+}
+
+input[type="submit"] {
+  background-color: aqua ;
+  color: white ;
+  border-radius: 40px ;
+  marign-top: 4em ;
+  font-size: 1.2em ;
+  text-transform: uppercase ;
+  font-family: 'PT Sans', sans-serif ;
+  font-weight: 700 ;
+  padding-left: 25px ;
+  padding-right: 25px ;
+  padding-top: 10px ;
+  padding-bottom:10px ;
+  display: inline-block ;
+}
+
+input[type="submit"]:hover {
+  background-color: red ;
+}
