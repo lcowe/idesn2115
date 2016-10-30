@@ -9,22 +9,34 @@
 
             .red {
                 background: red;
-                float: right;
+                position: fixed;
+                top: 80px;
+                right: 80px;
+                z-index: 1;
             }
 
             .green {
                 background: green;
-                clear: both;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                z-index: -1
+                display: inline;
+                transform: scale(3);
             }
-
             .blue {
                 background: blue;
-                float: right;
+                position: absolute;
+                right: 0px;
+                top: 160px;
+                z-index: -1
             }
-
             .orange {
                 background: orange;
-                clear: both;
+                position: absolute;
+                left: 0;
+                top: 160px;
+                z-index: 1;
             }
 
             .shared {
