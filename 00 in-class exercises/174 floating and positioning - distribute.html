@@ -1,0 +1,103 @@
+<!-- Constraint: do not alter the HTML. -->
+<!-- Hint: relative positioning will help you more than you may think. -->
+<!-- Tackle the blue square last. -->
+<html>
+    <head>
+        <title>174 floating and positioning.html</title>
+        <style type="text/css">
+
+            body {
+                margin: 0px ;
+            }
+
+            /* big box classes */
+
+            .red_big_top_left {
+                background: red;
+                position: relative;
+                transform: rotate();
+            }
+
+            .red_big_bottom_left {
+                background: red;
+                position: relative;
+            }
+
+            .green_big_top_right {
+                background: green;
+                position: relative;
+                float: right;
+                top: 0px;
+            }
+
+            .green_big_bottom_right {
+                background: green;
+                position: relative;
+                float: right;
+            }
+
+            /* small box classes */
+
+            .green_small_bottom_right {
+                background: green;
+            }
+
+            .green_small_top_left {
+                background: green;
+            }
+
+            .red_small_bottom_left {
+                background: red;
+            }
+
+            .red_small_top_right {
+                background: red;
+            }
+
+            /* "shared" classes */
+
+            .big {
+                width: 450px ;
+                height: 450px;
+                margin: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+            }
+
+            .small {
+                width: 150px ;
+                height: 150px;
+                padding: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+            }
+
+            /* cyan box */
+
+            .cyan_big {
+                background: cyan;
+                border: 3px solid #fff ;
+                position: relative;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="red_big_top_left big">
+            <div class="green_small_bottom_right small">&nbsp;</div>
+        </div>
+        <div class="red_big_bottom_left big">
+            <div class="green_small_top_left small">&nbsp;</div>
+        </div>
+        <div class="green_big_top_right big">
+            <div class="red_small_bottom_left small">&nbsp;</div>
+        </div>
+        <div class="green_big_bottom_right big">
+            <div class="red_small_top_right small">&nbsp;</div>
+        </div>
+        <div class="cyan_big big">&nbsp;</div>
+    </body>
+</html>

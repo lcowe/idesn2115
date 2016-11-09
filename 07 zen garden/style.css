@@ -12,8 +12,10 @@ h1 {
 	color: #bcdc9e ;
 	padding-top: 50px ;
 	padding-bottom: 50px ;
+	padding-left: 0px ;
+	padding-right: 0px ;
 	letter-spacing: 50px ;
-	position: inline ;
+	position: relative fixed ;
 	background-image: url("rock.jpg");
 	/*background-repeat: no-repeat;*/
 	background-size: 1500px;
@@ -28,7 +30,7 @@ h2 {
 	padding: 90px 50px 50px 90px ;
 	letter-spacing: 10px ;
 	text-align: left ;
-	position: static ;
+	position: relative ;
 }
 h3 {
 	font-family: "andale mono", sans-serif ;
