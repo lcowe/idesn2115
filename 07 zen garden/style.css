@@ -10,15 +10,15 @@ h1 {
 	font-size: 145px ;
 	line-height: 1 ;
 	color: #bcdc9e ;
-	padding-top: 50px ;
-	padding-bottom: 50px ;
-	padding-left: 0px ;
-	padding-right: 0px ;
+	padding: 100px 0px 150px 0px ;
 	letter-spacing: 50px ;
 	position: relative fixed ;
 	background-image: url("rock.jpg");
 	/*background-repeat: no-repeat;*/
 	background-size: 1500px;
+	width: 1500px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 h2 {
 	font-family: "andale mono", sans-serif ;
@@ -27,10 +27,13 @@ h2 {
 	font-size: 20px ;
 	color: #FA9F7F ;
 	transform: rotate(90deg) ;
-	padding: 90px 50px 50px 90px ;
-	letter-spacing: 10px ;
+	padding: 10px 50px 60px 10px ;
+	letter-spacing: 20px ;
 	text-align: left ;
 	position: relative ;
+	width: 1350px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 h3 {
 	font-family: "andale mono", sans-serif ;
@@ -73,15 +76,16 @@ div.summary {
 	margin: 50px 10px 10px 10px ;
 	padding: 15px ;
 	position: relative ;
-	float: left ;
 	clear: both ;
 	text-align: left ;
+	width: 1500px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 div.design-selection {
 	margin: 10px 10px 10px 10px ;
 	padding: 14px ;
 	position: relative ;
-	float: left ;
 	clear: both ;
 	text-align: left ;
 	font-family: "gillsans", serif ;
@@ -113,12 +117,13 @@ div.preamble {
 	font-weight: 100 ;
 	color: black ;
 	background-color: #FA9F7F ;
-	margin: 10px 10px 10px 10px ;
 	padding: 15px ;
 	position: relative ;
-	float: left ;
 	clear: both ;
 	text-align: left ;
+	width: 1500px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 div.explanation {
 	font-family: "gillsans", serif ;
@@ -128,12 +133,13 @@ div.explanation {
 	letter-spacing: normal ;
 	font-weight: 100 ;
 	color: black ;
-	margin: 10px 10px 10px 10px ;
 	padding: 15px ;
 	position: relative ;
-	float: left ;
 	clear: both ;
 	text-align: left ;
+	width: 1500px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 div.participation {
 	font-family: "gillsans", serif ;
@@ -144,12 +150,13 @@ div.participation {
 	font-weight: 100 ;
 	color: black ;
 	background-color: #FA9F7F ;
-	margin: 10px ;
 	padding: 15px ;
 	position: relative ;
-	float: right ;
 	clear: both ;
 	text-align: left ;
+	width: 1500px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 div.benefits {
 	font-family: "gillsans", serif ;
@@ -159,12 +166,13 @@ div.benefits {
 	letter-spacing: normal ;
 	font-weight: 100 ;
 	color: black ;
-	margin: 10px 10px 10px 10px ;
 	padding: 15px ;
 	position: relative ;
-	float: left ;
 	clear: both ;
 	text-align: left ;
+	width: 1500px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 div.requirements {
 	font-family: "gillsans", serif ;
@@ -175,18 +183,18 @@ div.requirements {
 	font-weight: 100 ;
 	color: black ;
 	background-color: #FA9F7F ;
-	margin: 10px ;
 	padding: 15px ;
 	position: relative ;
-	float: right ;
 	clear: both ;
 	text-align: left ;
+	width: 1500px ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 div.design-requirements {
 	margin: 10px 10px 10px 10px ;
 	padding: 15px ;
 	position: relative ;
-	float: left ;
 	clear: both ;
 	text-align: left ;
 	display: inline-block !important ;
