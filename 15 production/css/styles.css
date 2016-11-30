@@ -1,0 +1,119 @@
+body {
+  background-color: #fff ;
+}
+
+header {
+  text-transform: uppercase ;
+  font-family: futura, sans-serif ;
+  font-size: 6em ;
+  font-weight: 700 ;
+  color: #B00404 ;
+}
+
+/*header #ampersand {
+  font-family: garamond, sans-serif ;
+}*/
+
+nav {
+  float: left ;
+  width: 15.3% ;
+  margin-left: 3.6% ;
+}
+
+nav #primary_nav ul {
+  list-style-type: none ;
+  text-transform: uppercase ;
+  font-family: helvetica, sans-serif ;
+  font-size: 13px ;
+  font-weight: bold ;
+  color: #fff ;
+}
+
+nav #sub_nav ul {
+  list-style-type: none ;
+  text-transform: uppercase ;
+  font-family: helvetica, sans-serif ;
+  font-size: 12px ;
+  color: #471F23 ;
+
+}
+
+/*article #image_home {
+  position: fixed ;
+
+}*/
+
+h1 {
+  text-transform: uppercase ;
+  font-family: helvetica, sans-serif ;
+  font-size: 30px;
+  font-weight: bold ;
+  color: #B00404 ;
+}
+
+h2 {
+  font-family: garamond, serif ;
+  font-size: 18px ;
+  font-weight: normal ;
+  color: #471F23 ;
+  line-height: 35px ;
+  position: fixed ;
+}
+
+h3 {
+  font-family: garamond, serif ;
+  font-size: 22px ;
+  font-weight: normal ;
+  color: #fff ;
+  line-height: 25px ;
+  position: fixed ;
+  float: right ;
+}
+
+h4 {
+  font-family: garamond, serif ;
+  font-size: 18px ;
+  font-weight: normal ;
+  color: #C01B00 ;
+  line-height: 25px ;
+  float: left ;
+  position: relative ;
+}
+
+h5 {
+  font-family: helvetica, sans-serif ;
+  font-size: 12px ;
+  font-weight: bold ;
+  color: #5A2B2E ;
+  text-transform: uppercase ;
+  line-height: 25px ;
+  float: left ;
+  position: relative ;
+}
+
+section {
+    float: right ;
+    width: 79.1% ;
+    margin-left: 1.1% ;
+    overflow-x: scroll ;
+    margin-bottom: 3em ;
+
+}
+section article {
+    display: table-cell ;
+}
+section article img.float_left_image {
+    float: left ;
+    margin-right: 3.5em ;
+    margin-bottom: .7em ;
+}
+section article p.photo_caption {
+    font-family: helvetica, sans-serif;
+    font-size: 13px ;
+    font-weight: bold ;
+    color: #471F23 ;
+}
+
+footer {
+  clear: both ;
+}
