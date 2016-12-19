@@ -1,45 +1,69 @@
 <html>
 <head>
-<title>Image Gallery | Love & Dancing</title>
-<link type="text/css" rel="stylesheet" href="css/styles.css">
+  <title>Image Gallery | Love & Dancing</title>
+  <link type="text/css" rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <div id="logo-container">
+        <a href="index.html"><img src="ld_logo.png" alt="Home" style="width:66.5px;height:47.17px"/></a>
+      </div>
+      <div class="nav-button">
+        <a href="index.html">home</a>
+        <a href="bio.html">about</a>
+        <a href="image-gallery.html" class="here">image gallery</a>
+        <a href="video.html">video</a>
+        <a href="calendar.html">calendar</a>
+        <a href="contact.html">contact</a>
+      </div>
 
-<h1>image gallery</h1>
+      <!-- social icons -->
+      <div id="social-container">
+        <a id="facebook" href="https://www.facebook.com/loveandancing"><img src="facebook.png" alt="Facebook" style="width:35.6px;height:35px"/></a>
+        <a id="twitter" href="https://twitter.com/loveandancing"><img src="twitter.png" alt="Twitter" style="width:35.6px;height:35px"/></a>
+      </div>
 
-<section>
-<article>
-    <img class="float_left_image" src="image1.jpg" title="L&D at The Twa Dugs" width="960" height="640" />
-    <p class="photo_caption">1 of 7</p>
-  </article>
-  <article>
-    <img class="float_left_image" src="image2.jpg" title="L&D at The Twa Dugs" width="960" height="640" />
-    <p class="photo_caption">2 of 7  </p>
-  </article>
-  <article>
-    <img class="float_left_image" src="image3.jpg" title="L&D at The Twa Dugs" width="960" height="640" />
-    <p class="photo_caption">3 of 7</p>
-  </article>
-  <article>
-    <img class="float_left_image" src="image4.jpg" title="L&D at The Twa Dugs" width="960" height="640" />
-    <p class="photo_caption">4 of 7  </p>
-  </article>
-  <article>
-    <img class="float_left_image" src="image5.jpg" title="L&D at The Twa Dugs" width="960" height="640" />
-    <p class="photo_caption">5 of 7  </p>
-  </article>
-  <article>
-    <img class="float_left_image" src="image6.jpg" title="L&D at The Twa Dugs" width="960" height="640" />
-    <p class="photo_caption">6 of 7  </p>
-  </article>
-  <article>
-    <img class="float_left_image" src="image7.jpg" title="L&D at The Twa Dugs" width="960" height="640" />
-    <p class="photo_caption">7 of 7</p>
-</article>
-</section>
+    </nav>
+  </header>
+  <h1>image gallery</h1>
 
-<h4>Performing at The Twa Dugs bar on 11.11.16</h4>
-<h5>photography by ben reed photography</h5>
+  <div class="cycle-slideshow" data-cycle-timeout="0" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-speed="1">
+    <img src="imagery/image1.jpg" title="l&d at twa dugs bar" width="960" height="640"/>
+    <img src="imagery/image2.jpg" title="l&d at twa dugs bar" width="960" height="640"/>
+    <img src="imagery/image3.jpg" title="l&d at twa dugs bar" width="960" height="640"/>
+    <img src="imagery/image4.jpg" title="l&d at twa dugs bar" width="960" height="640"/>
+    <img src="imagery/image5.jpg" title="l&d at twa dugs bar" width="960" height="640"/>
+    <img src="imagery/image6.jpg" title="l&d at twa dugs bar" width="960" height="640"/>
+    <img src="imagery/image7.jpg" title="l&d at twa dugs bar" width="960" height="640"/>
+  </div>
 
+  <div class="center">
+    <a href=# id="prev"> < </a>
+    <a href=# id="next"> > </a>
+  </div>
+
+  <!-- jQuery library via Google CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- fancybox plugin installed locally -->
+
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+
+  <script type="text/javascript">
+  jQuery(document).ready(function() {
+    // our code here
+    jQuery(".fancybox").fancybox();
+  });
+  </script>
+
+  <section>
+    <h4>Performing at The Twa Dugs bar on 11.11.16</h4>
+    <h5>photography by ben reed photography</h5>
+  </section>
+  <footer>
+    Copyright &copy; 2016 Love & Dancing. Design by Lauren Cowe.
+  </footer>
 </body>
 </html>
