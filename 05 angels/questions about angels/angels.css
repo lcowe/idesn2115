@@ -1,0 +1,30 @@
+/* Put your CSS here. */
+
+p.green{
+  color: #41ad49 ;
+  font-family: helvetica, sans-serif ;
+}
+
+p.blue{
+  color: navy;
+  font-family: serif ;
+  font-family: verdana ;
+}
+
+p.pink{
+  color: #ec008c;
+  font-family: courier ;
+}
+
+h2{
+  text-transform: uppercase ;
+  font-size: 18px ;
+  font-family: georgia ;
+  font-weight: lighter ;
+}
+
+h3{
+  color: gray ;
+  text-transform: uppercase ;
+  font-family: verdana, sans-serif ;
+}

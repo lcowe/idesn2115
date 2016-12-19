@@ -1,0 +1,11 @@
+h3 {
+  display: none ;
+}
+
+p.green, p.blue, p.pink {
+  color: black ;
+}
+
+/* p.::first-line {
+  text-transform: uppercase ;
+} */
